@@ -10,7 +10,7 @@ RF24Network network(radio);      // Include the radio in the network
 const uint16_t this_node = 01;   // Address of our node in Octal format ( 04,031, etc)
 const uint16_t master00 = 00;    // Address of the other node in Octal format
 
-int pin = 3;
+int pin = 4;
 float rads = 57.29577951; // 1 radian = approx 57 deg.
 float degree = 360;
 float frequency = 50;
